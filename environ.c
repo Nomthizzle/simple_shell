@@ -1,7 +1,8 @@
 #include "shell.h"
 /**
 * _myenv - this prints the current environ
-* @info: this struct containing potential arguments.to maintain constant function prototype.
+* @info: this struct containing potential arguments
+*	to maintain constant function prototype.
 * Return: Always 0
 */
 int _myenv(info_t *info)
@@ -48,7 +49,8 @@ return (1);
 }
 /**
 * _myunsetenv - this remove an environment variable
-* @info: this struct containing potential arguments. Used to maintain function prototype.
+* @info: this struct containing potential arguments.
+*	Used to maintain function prototype.
 * Return: Always 0
 */
 int _myunsetenv(info_t *info)
